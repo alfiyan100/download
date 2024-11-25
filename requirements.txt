@@ -2,7 +2,6 @@ logging
 re
 asyncio
 python-telegram-bot
-setuptools wheel
 python==3.10.8
 telethon==1.21.1 
 pytz==2021.3 
