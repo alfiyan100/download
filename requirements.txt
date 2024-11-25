@@ -3,3 +3,5 @@ re
 asyncio
 speedtest-cli
 python-telegram-bot
+setuptools wheel
+python-3.10.8
