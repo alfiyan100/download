@@ -2,6 +2,7 @@ import logging
 import re
 import asyncio
 from telethon import TelegramClient, events, errors
+from telethon.sessions import StringSession
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument, PeerChannel, PeerChat, PeerUser
 import pytz
