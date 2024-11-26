@@ -8,6 +8,9 @@ import pytz
 from datetime import datetime
 import speedtest  # Menambahkan import untuk speedtest-cli
 
+# String session yang telah Anda simpan
+string_session = '1BVtsOH0Bu4DWaGzbig42WBzznAfpBxxqxHsUrMlm9204yQ8hmfMlv17NWbIEgPyRdoQTroWPH7FDmDdDXWDDLfFSPjAzn7rsOu2zd1Ddk16BF6v0_cpaFxmIEs7ObWB4-1ac7pq8vSJKIf31cB1n7bXLZQc8IFCS6WjSj_LHL9hBcefUL3RAgBIUs4Jjx65dgK2c7gprrpneKTfavxCzakydLhqaPFCZFFOPniz27k2iOZIcy9wViiqf8qC8VRNS5BvvSOvWEkoedFyjRxb1rakdy-OtJXUYf0r6h41p8qPtkyqBE5K-ehj5Ks2YDp0YlTt-KL_wXxZFBymo2z_wDHiYdMIcX8A='  # Ganti dengan string session yang Anda dapatkan
+
 # Your API ID and Hash from my.telegram.org
 api_id = '29534642'
 api_hash = '0163712ff5842fa356424ad75a53442b'
@@ -16,7 +19,7 @@ phone = '+6283116571651'
 # Chat ID grup atau channel untuk menyimpan media
 target_chat_id = '@filebotkep'
 
-client = TelegramClient('userbot_session', api_id, api_hash, connection_retries=5)  # Menambahkan retry
+client = TelegramClient(StringSession(string_session), api_id, api_hash, connection_retries=5)  # Menambahkan retry
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
