@@ -1,4 +1,3 @@
-logging
 re
 asyncio
 python-telegram-bot
