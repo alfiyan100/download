@@ -1,6 +1,5 @@
 asyncio
 python-telegram-bot
-python==3.10.8
 telethon==1.21.1 
 pytz==2021.3 
 speedtest-cli==2.1.3
